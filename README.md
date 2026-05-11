@@ -50,10 +50,10 @@ src
 ### 示例 1：单文件上传
 
 ```php
-use Hizpark\FileUploader\Local\FileUploader;
-use Hizpark\FileUploader\Local\UploadContext;
-use Hizpark\FileUploader\Local\UploadedFile;
-use Hizpark\FileUploader\Validator\UploadedFileValidator;
+use ChangHorizon\FileUploader\Local\FileUploader;
+use ChangHorizon\FileUploader\Local\UploadContext;
+use ChangHorizon\FileUploader\Local\UploadedFile;
+use ChangHorizon\FileUploader\Validator\UploadedFileValidator;
 
 $file = new UploadedFile('example.png', 'image/png', '/tmp/php123', 102400);
 
