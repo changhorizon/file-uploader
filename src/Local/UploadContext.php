@@ -4,12 +4,12 @@ declare(strict_types=1);
 
 namespace ChangHorizon\FileUploader\Local;
 
-use Closure;
 use ChangHorizon\FileUploader\UploadContextInterface;
 use ChangHorizon\ScopedStorageStrategy\ScopedStorageStrategyInterface;
 use ChangHorizon\ScopedStorageStrategy\Session\SessionInitializerWithToken;
 use ChangHorizon\ScopedStorageStrategy\Session\SessionStorageStrategy;
 use ChangHorizon\ValidationInterface\ValidatorInterface;
+use Closure;
 
 class UploadContext implements UploadContextInterface
 {

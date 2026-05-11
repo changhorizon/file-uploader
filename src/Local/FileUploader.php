@@ -4,14 +4,14 @@ declare(strict_types=1);
 
 namespace ChangHorizon\FileUploader\Local;
 
-use Closure;
-use Exception;
 use ChangHorizon\FileUploader\Exception\FileUploadException;
 use ChangHorizon\FileUploader\FileUploaderInterface;
 use ChangHorizon\FileUploader\UploadContextInterface;
 use ChangHorizon\FileUploader\UploadedFileInterface;
 use ChangHorizon\FileUploader\UploadedFileResultInterface;
 use ChangHorizon\ValidationInterface\ValidatorInterface;
+use Closure;
+use Exception;
 
 class FileUploader implements FileUploaderInterface
 {

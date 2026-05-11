@@ -4,9 +4,9 @@ declare(strict_types=1);
 
 namespace ChangHorizon\FileUploader;
 
-use Closure;
 use ChangHorizon\ScopedStorageStrategy\ScopedStorageStrategyInterface;
 use ChangHorizon\ValidationInterface\ValidatorInterface;
+use Closure;
 
 interface UploadContextInterface
 {
