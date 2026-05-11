@@ -2,11 +2,11 @@
 
 declare(strict_types=1);
 
-namespace Hizpark\FileUploader;
+namespace ChangHorizon\FileUploader;
 
 use Closure;
-use Hizpark\ScopedStorageStrategy\ScopedStorageStrategyInterface;
-use Hizpark\ValidationInterface\ValidatorInterface;
+use ChangHorizon\ScopedStorageStrategy\ScopedStorageStrategyInterface;
+use ChangHorizon\ValidationInterface\ValidatorInterface;
 
 interface UploadContextInterface
 {

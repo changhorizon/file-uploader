@@ -2,9 +2,9 @@
 
 declare(strict_types=1);
 
-namespace Hizpark\FileUploader\Local;
+namespace ChangHorizon\FileUploader\Local;
 
-use Hizpark\FileUploader\UploadedFileResultInterface;
+use ChangHorizon\FileUploader\UploadedFileResultInterface;
 
 class UploadedFileResult implements UploadedFileResultInterface
 {

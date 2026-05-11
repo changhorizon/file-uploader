@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace Hizpark\FileUploader\Exception;
+namespace ChangHorizon\FileUploader\Exception;
 
 use RuntimeException;
 

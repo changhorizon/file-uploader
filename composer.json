@@ -1,5 +1,5 @@
 {
-    "name": "hizpark/file-uploader",
+    "name": "changhorizon/file-uploader",
     "description": "A flexible, decoupled file upload library with customizable validation and scoped storage management for secure and maintainable uploads.",
     "keywords": [
         "file-upload",
@@ -17,8 +17,8 @@
     ],
     "require": {
         "php": ">=8.2",
-        "hizpark/scoped-storage-strategy": "^2.0",
-        "hizpark/validation-interface": "^2.0"
+        "changhorizon/scoped-storage-strategy": "^2.1",
+        "changhorizon/validation-interface": "^2.1"
     },
     "require-dev": {
         "friendsofphp/php-cs-fixer": "^3.75",
@@ -28,12 +28,12 @@
     },
     "autoload": {
         "psr-4": {
-            "Hizpark\\FileUploader\\": "src/"
+            "ChangHorizon\\FileUploader\\": "src/"
         }
     },
     "autoload-dev": {
         "psr-4": {
-            "Hizpark\\FileUploader\\Tests\\": "tests/"
+            "ChangHorizon\\FileUploader\\Tests\\": "tests/"
         }
     },
     "scripts": {

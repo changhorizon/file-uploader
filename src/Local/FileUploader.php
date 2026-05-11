@@ -2,16 +2,16 @@
 
 declare(strict_types=1);
 
-namespace Hizpark\FileUploader\Local;
+namespace ChangHorizon\FileUploader\Local;
 
 use Closure;
 use Exception;
-use Hizpark\FileUploader\Exception\FileUploadException;
-use Hizpark\FileUploader\FileUploaderInterface;
-use Hizpark\FileUploader\UploadContextInterface;
-use Hizpark\FileUploader\UploadedFileInterface;
-use Hizpark\FileUploader\UploadedFileResultInterface;
-use Hizpark\ValidationInterface\ValidatorInterface;
+use ChangHorizon\FileUploader\Exception\FileUploadException;
+use ChangHorizon\FileUploader\FileUploaderInterface;
+use ChangHorizon\FileUploader\UploadContextInterface;
+use ChangHorizon\FileUploader\UploadedFileInterface;
+use ChangHorizon\FileUploader\UploadedFileResultInterface;
+use ChangHorizon\ValidationInterface\ValidatorInterface;
 
 class FileUploader implements FileUploaderInterface
 {

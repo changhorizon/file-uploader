@@ -12,10 +12,10 @@ declare(strict_types=1);
  *   grep 'pps\.' -r .
  *
  * Example usage (in composer.json):
- *   "name": "hizpark/pps.repo_name"
+ *   "name": "changhorizon/pps.repo_name"
  *
  * Replace with:
- *   "name": "hizpark/example-project"
+ *   "name": "changhorizon/example-project"
  *
  * Note:
  * - Double backslashes (\\) are required in namespaces.
@@ -24,7 +24,7 @@ declare(strict_types=1);
 
 return [
     // ─── composer.json | README.md | .github/workflows/ci.yml ───────
-    'pps.vendor'               => '', // e.g., 'hizpark'
+    'pps.vendor'               => '', // e.g., 'changhorizon'
     'pps.repo_name'            => '', // e.g., 'example-project'
 
     // ─── composer.json ──────────────────────────────────────────────
@@ -45,7 +45,7 @@ return [
 
     // ─── LICENSE ────────────────────────────────────────────────────
     'pps.license_year'         => '', // e.g., '2025'
-    'pps.license_owner'        => '', // e.g., 'hizpark'
+    'pps.license_owner'        => '', // e.g., 'changhorizon'
 
     // ─── README.md ──────────────────────────────────────────────────
     'pps.doc_title'            => '', // e.g., 'Example Project'

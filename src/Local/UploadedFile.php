@@ -2,11 +2,11 @@
 
 declare(strict_types=1);
 
-namespace Hizpark\FileUploader\Local;
+namespace ChangHorizon\FileUploader\Local;
 
-use Hizpark\FileUploader\Exception\FileUploadEmptyException;
-use Hizpark\FileUploader\Exception\FileUploadException;
-use Hizpark\FileUploader\UploadedFileInterface;
+use ChangHorizon\FileUploader\Exception\FileUploadEmptyException;
+use ChangHorizon\FileUploader\Exception\FileUploadException;
+use ChangHorizon\FileUploader\UploadedFileInterface;
 
 class UploadedFile implements UploadedFileInterface
 {

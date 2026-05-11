@@ -2,12 +2,12 @@
 
 declare(strict_types=1);
 
-namespace Hizpark\FileUploader\Validator;
+namespace ChangHorizon\FileUploader\Validator;
 
-use Hizpark\FileUploader\UploadedFileInterface;
-use Hizpark\ValidationInterface\Result\ValidationResult;
-use Hizpark\ValidationInterface\ValidationResultInterface;
-use Hizpark\ValidationInterface\Validator\AbstractValidator;
+use ChangHorizon\FileUploader\UploadedFileInterface;
+use ChangHorizon\ValidationInterface\Result\ValidationResult;
+use ChangHorizon\ValidationInterface\ValidationResultInterface;
+use ChangHorizon\ValidationInterface\Validator\AbstractValidator;
 
 class UploadedFileValidator extends AbstractValidator
 {

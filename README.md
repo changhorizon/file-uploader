@@ -2,13 +2,13 @@
 
 > 灵活、解耦的文件上传组件
 
-![License](https://img.shields.io/github/license/hizpark/file-uploader?style=flat-square)
-![Latest Version](https://img.shields.io/packagist/v/hizpark/file-uploader?style=flat-square)
+![License](https://img.shields.io/github/license/changhorizon/file-uploader?style=flat-square)
+![Latest Version](https://img.shields.io/packagist/v/changhorizon/file-uploader?style=flat-square)
 ![PHP Version](https://img.shields.io/badge/php-8.2--8.4-blue?style=flat-square)
 ![Static Analysis](https://img.shields.io/badge/static_analysis-PHPStan-blue?style=flat-square)
 ![Tests](https://img.shields.io/badge/tests-PHPUnit-brightgreen?style=flat-square)
-[![codecov](https://codecov.io/gh/hizpark/file-uploader/branch/main/graph/badge.svg)](https://codecov.io/gh/hizpark/file-uploader)
-![CI](https://github.com/hizpark/file-uploader/actions/workflows/ci.yml/badge.svg?style=flat-square)
+[![codecov](https://codecov.io/gh/changhorizon/file-uploader/branch/main/graph/badge.svg)](https://codecov.io/gh/changhorizon/file-uploader)
+![CI](https://github.com/changhorizon/file-uploader/actions/workflows/ci.yml/badge.svg?style=flat-square)
 
 一个轻量组件，支持自定义验证和作用域标识管理（ScopedStorageStrategy），适合有状态或无状态的 HTTP API 场景，可快速集成到现有系统。
 
@@ -22,7 +22,7 @@
 ## 📦 安装
 
 ```bash
-composer require hizpark/file-uploader
+composer require changhorizon/file-uploader
 ```
 
 ## 📂 目录结构

@@ -2,14 +2,14 @@
 
 declare(strict_types=1);
 
-namespace Hizpark\FileUploader\Local;
+namespace ChangHorizon\FileUploader\Local;
 
 use Closure;
-use Hizpark\FileUploader\UploadContextInterface;
-use Hizpark\ScopedStorageStrategy\ScopedStorageStrategyInterface;
-use Hizpark\ScopedStorageStrategy\Session\SessionInitializerWithToken;
-use Hizpark\ScopedStorageStrategy\Session\SessionStorageStrategy;
-use Hizpark\ValidationInterface\ValidatorInterface;
+use ChangHorizon\FileUploader\UploadContextInterface;
+use ChangHorizon\ScopedStorageStrategy\ScopedStorageStrategyInterface;
+use ChangHorizon\ScopedStorageStrategy\Session\SessionInitializerWithToken;
+use ChangHorizon\ScopedStorageStrategy\Session\SessionStorageStrategy;
+use ChangHorizon\ValidationInterface\ValidatorInterface;
 
 class UploadContext implements UploadContextInterface
 {

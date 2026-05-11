@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace Hizpark\FileUploader\Tests\Local;
+namespace ChangHorizon\FileUploader\Tests\Local;
 
 use PHPUnit\Framework\TestCase;
 
