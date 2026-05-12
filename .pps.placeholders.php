@@ -33,8 +33,8 @@ return [
     'pps.repo_php_version'     => '', // e.g., '8.2'
     'pps.repo#author.name'     => '', // e.g., 'Harper Jang'
     'pps.repo@author.email'    => '', // e.g., 'harper.jang@outlook.com'
-    'pps.repo_src_namespace'   => '', // e.g., 'Hizpark\\ExampleProject'
-    'pps.repo_tests_namespace' => '', // e.g., 'Hizpark\\ExampleProject\\Tests'
+    'pps.repo_src_namespace'   => '', // e.g., 'ChangHorizon\\ExampleProject'
+    'pps.repo_tests_namespace' => '', // e.g., 'ChangHorizon\\ExampleProject\\Tests'
 
     // ─── phpunit.xml.dist ───────────────────────────────────────────
     'pps.testsuite_name'       => '', // e.g., 'ExampleProject'
